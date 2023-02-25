@@ -31,7 +31,35 @@
               "src/styles.scss",
               "src/theming.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "preserveSymlinks": true,
+            "vendorChunk": true,
+            "extractLicenses": true,
+            "buildOptimizer": true,
+            "sourceMap": {
+              "styles": true,
+              "scripts": true,
+              "vendor": true
+            },
+            "optimization": {
+              "fonts": true,
+              "scripts": true,
+              "styles": true
+            },
+            "budgets": [
+              {
+                "type": "initial",
+                "maximumWarning": "2mb",
+                "maximumError": "5mb"
+              },
+              {
+                "type": "anyComponentStyle",
+                "maximumWarning": "4kb",
+                "maximumError": "8kb"
+              }
+            ],
+            "outputHashing": "all",
+            "namedChunks": false
           },
           "configurations": {
             "production": {
