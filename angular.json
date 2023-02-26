@@ -31,6 +31,9 @@
               "src/styles.scss",
               "src/theming.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": ["src/styles"]
+            },
             "scripts": [],
             "preserveSymlinks": true,
             "vendorChunk": true,
@@ -128,6 +131,9 @@
               "src/styles.scss",
               "src/theming.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": ["src/styles"]
+            },
             "scripts": []
           }
         }
