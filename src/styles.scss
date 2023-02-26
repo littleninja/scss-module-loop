@@ -1,4 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@use 'colors' as colors;
+
+:root {
+  --my-white: #{colors.$my-white};
+  --my-off-white: #{colors.$my-offwhite};
+  --my-black: #{colors.$my-black};
+  --my-off-black: #{colors.$my-offblack};
+}
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
